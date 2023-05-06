@@ -74,12 +74,12 @@ body {
   color: #fff;
 }
 
-.quote{
+.quote {
   margin: 0 0.5em 0 0;
   font-size: 2.5em;
  }
  
-.learn{
+.learn {
   margin: 0 0 0 0.5em;
   font-size: 2.5em;
 }
@@ -445,5 +445,21 @@ textarea {
 
   .navbar-toggler-icon {
     font-size: 1.5em;
+  }
+
+  .quote {
+    margin: 0 0 0.5em 0;
+    font-size: 2.5em;
+   }
+   
+  .learn {
+    margin: 0 0 0 0;
+    font-size: 2.5em;
+  }
+ }
+
+ @media only screen and (max-width:876px) {
+  .navbar-collapse .navbar-nav {
+    text-align: center;
   }
  }
