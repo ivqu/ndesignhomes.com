@@ -458,7 +458,7 @@ textarea {
   }
  }
 
- @media only screen and (max-width:540px) {
+ @media only screen and (max-width:500px) {
   .quote {
     margin: 0 0 0 0;
     font-size: 2.5em;
