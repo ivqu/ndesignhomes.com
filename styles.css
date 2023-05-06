@@ -71,31 +71,26 @@ body {
 
 .subheading {
   font-size: 3em;
-  color: #fff;
+  color: #e0dcdc;
 }
 
-.quote {
-  margin: 0 0.5em 0 0;
-  font-size: 2.5em;
- }
- 
-.learn {
-  margin: 0 0 0 0.5em;
-  font-size: 2.5em;
+.btn-lg {
+  margin: 1em;
 }
 
-.row .btn-outline-dark {
+.row .btn-secondary {
   font-size: 2.5em;
   font-weight: 500;
   padding: 10px 10px;
   letter-spacing: 0.5rem;
 }
 
-.btn-outline-dark a {
+.btn-secondary a {
   color: #fff;
+  font-size: 2em;
 }
 
-.btn-outline-dark:hover{
+.btn-secondary:hover{
   color: #fff;
 }
 
@@ -447,23 +442,58 @@ textarea {
     font-size: 1.5em;
   }
 
-  .quote {
-    margin: 0 0 0.5em 0;
-    font-size: 2.5em;
-   }
-   
-  .learn {
-    margin: 0 0 0 0;
-    font-size: 2.5em;
+  .btn-lg {
+    margin: 1em;
+  }
+
+  .about .image img {
+    height: 30vh;
+  }
+
+  .service .box-container .box {
+    height: 27rem;
+  }
+
+  .about .info {
+    text-align: center;
+  }
+
+  .send {
+    font-size: 1em;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .contact-box-container .contact-box {
+    width: 20rem;
+    height: 7rem;
+    padding-top: 0;
+    flex: 1 0 10rem;
+  }
+
+  .contact-box-container .contact-box h3{
+    font-size: 1rem;
+  }
+
+  .contact-box-container .contact-box i{
+    font-size: 2rem;
+  }
+
+  .contact .form-container {
+    padding-top: 4em;
+    height: 65em
+  }
+
+  .form-container .message {
+    height: 50em;
+  }
+
+  .send {
+    font-size: 1.5em;
+    width: 100%;
+    padding: 10px;
   }
  }
 
- @media only screen and (max-width:540px) {
-  .quote {
-    margin: 0 0.5em 0 0;
-    font-size: 2.5em;
-   }
-  }
 
  @media only screen and (max-width:876px) {
   .navbar-collapse .navbar-nav {
