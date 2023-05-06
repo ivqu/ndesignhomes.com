@@ -25,14 +25,7 @@
     <link rel="stylesheet" href="styles.css" />
 
     <!--favicon-->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-
-    <!--Hide Bueger Menu-->
-    <script type="text/javascript">    
-      $('.js-scroll-trigger').click(function() {
-      $('.navbar-collapse').collapse('hide');
-      });
-    </script>    
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">    
 
   </head>
   <body>
@@ -86,10 +79,14 @@
         <div class="carousel-inner" style="min-height: 50vh;">
           <div class="carousel-item carousel-image bg-img-1 c-item active" data-bs-interval="10000">
             <div class="carousel-caption top-50">
+              <div class="container"></div>
               <h1 class="mainheading">We Design Homes</h1>
               <h3 class="subheading">Let’s get together and create your dream home</h3>
-              <button type="button" class="btn btn-outline-dark quote"> <a href="#contact">Get Quote</a></button>
-              <button type="button" class="btn btn-outline-dark learn"> <a href="#about">Learn More</a> </button>
+                  <button type="button" class="btn btn-secondary btn-lg"> <a href="#contact">Get Quote</a></button>
+                  <button type="button" class="btn btn-secondary btn-lg"> <a href="#about">Learn More</a> </button>
+            </div>
+            </div>
+              </div>
             </div>
           </div>
           <div class="carousel-item carousel-image bg-img-2 c-item" data-bs-interval="1000">
@@ -299,7 +296,7 @@
             <input type="number" placeholder="Phone number" />
           </div>
           <input type="email" placeholder="Email address" />
-          <textarea
+          <textarea class="message"
             name=""
             id=""
             cols="30"
